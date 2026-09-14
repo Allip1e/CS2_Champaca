@@ -1,24 +1,18 @@
 # CS2_Champaca
 champaca.2031.cs
 
+#floats
+x1 = float(input("Enter x1 :"))
+x2 = float(input("Enter x2 :"))
+y1 = float(input("Enter y1 :"))
+y2 = float(input("Enter y2:"))
+distance = math.sqrt(pow(x2 - x1, 2)) + pow(y2 - y1, 2)
 
-# Project Title
+point_a = pow(x2 - x1, 2)
+point_b =pow(y2-y1,2)
+distance=math.sqrt(point_a+point_b)
 
-## Description
-
-Briefly explain what the program does.
-
-## How to Run
-
-Explain how to open and run the program.
-
-## Input Needed
-
-List the values that the user needs to enter.
-
-## Sample Output
-
-Show an example output.
+print("the distance", distance)
 
 ## Author
 
